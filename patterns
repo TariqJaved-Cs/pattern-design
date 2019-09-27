@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+    upward_triangle();
+    printf("\n");
+    horizantal_lines();
+    printf("\n");
+    horizantal_lines();
+    printf("\n");
+    horizantal_lines();
+    printf("\n");
+    horizantal_lines();
+    printf("\n");
+    downward_triangle();
+
+
+}
+upward_triangle()
+{
+    printf("    *\n");
+    printf("   * *\n");
+    printf("  * * *\n");
+    printf(" * * * *\n");
+}
+horizantal_lines()
+{
+
+    printf("----------");
+}
+downward_triangle()
+{
+    printf(" * * * *\n");
+    printf("  * * *\n");
+     printf("  * *\n");
+     printf("   *\n");
+}
+
